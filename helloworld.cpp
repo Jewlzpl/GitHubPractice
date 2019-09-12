@@ -4,11 +4,15 @@
 
 #include "pch.h"
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
-	cout << "Hello World Project!\nJulia Lewis\n";
+	string phone;
+	cout << "Hello World Project!\n\nMy name is Julia Lewis\n\nWhat is my phone number?"<< endl << endl;
+	getline(cin, phone);
+	cout << "You said my phone number was " << phone << "." << endl;
 }
 
 /*
